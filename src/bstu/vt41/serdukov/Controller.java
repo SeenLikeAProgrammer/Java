@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 abstract class Construction {
     int Cost;
-
     public abstract void init(Scanner info);
     public int getConstructionCost()
     {
